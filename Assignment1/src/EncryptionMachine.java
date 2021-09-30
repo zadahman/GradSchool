@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 /**
  * This is an encryption machine.
- * It uses Caesar Cipher to encrypt conversation between two
+ * It uses Caesar Cipher to encrypt conversations between two
  * parties, enforcing privacy and preventing third parties from reading
  * or modifying any secret information
  * @author zillahadahman
@@ -21,7 +21,6 @@ public class EncryptionMachine {
 	 */
 	public static void main(String[] args) {
 		EncryptionMachine encryptionMachine = new EncryptionMachine();
-
 		encryptionMachine.EncryptionRequest();
 	}
 	
